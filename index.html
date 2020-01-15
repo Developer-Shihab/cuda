@@ -191,7 +191,7 @@ tempor incididunt ut labore et dolore magna aliqua.
 			</p>
 		</div>
 
-		<div class="row row-col">
+		<div class="row row-col ">
 			<div class="col3">
 				<svg class="radial-progress webdesign" data-percentage="90" viewBox="0 0 80 80">
 					  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
@@ -252,29 +252,29 @@ tempor incididunt ut labore et dolore magna aliqua.
 		</div>
 		<div class="row">
 			<div class="portfolio-filter">
-				<button type="button">ALL</button>
-				<button type="button">WEBS</button>
-				<button type="button">APPS</button>
-				<button type="button">ICONS</button>
+				<button type="button" data-filter="ALL">ALL</button>
+				<button type="button" data-filter=".WEBS">WEBS</button>
+				<button type="button" data-filter=".APPS">APPS</button>
+				<button type="button" data-filter=".ICONS">ICONS</button>
 			</div>
 		</div>
 
-		<div class="row row-col" >
-				<div class="col-port1">
+		<div class="row row-col container" >
+				<div class="col-port1 mix APPS ">
 					<img src="img/portfolio1.png" alt="" class="portfolio-img">
 					<h5 class="h5">Isometric Perspective Mock-Up</h5>
 				</div>
-				<div class="col-port">
+				<div class="col-port  mix APPS WEBS ALL">
 					<img src="img/portfolio2.png" alt="" class="portfolio-img">
 					<h5 class="h5">Time Zone App UI</h5>
 				</div>
 		</div>
-		<div class="row row-col">
-				<div class="col-port1">
+		<div class="row row-col container">
+				<div class="col-port1  mix ICONS ALL">
 					<img src="img/portfolio3.png" alt="" class="portfolio-img">
 					<h5 class="h5">Viro Media Players UI</h5>
 				</div>
-				<div class="col-port">
+				<div class="col-port  mix ICONS WEBS APPS ALL">
 					<img src="img/portfolio4.png" alt="" class="portfolio-img">
 					<h5 class="h5">Blog / Magazine Flat UI Kit</h5>
 				</div>
@@ -428,6 +428,8 @@ tempor incididunt ut labore et dolore magna aliqua.
 </script> 
 	<script src="animated-sircle.js"></script>
     <script src="jquery.waypoints.min.js"></script>
+     <script src="mixitup.min.js"></script>
     <script src="won.js"></script>
+
 </body>
 </html>
